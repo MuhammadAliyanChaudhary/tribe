@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1077907315744",
+    "project_id": "tribe-7cee2",
+    "storage_bucket": "tribe-7cee2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077907315744:android:093549af57214a13ddf045",
+        "android_client_info": {
+          "package_name": "com.example.tribe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077907315744-969d7o6dpuefjul3lshgim4197acfleg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbxmsrdlkmECbRGNpeJADgfL03CZzJLdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077907315744-969d7o6dpuefjul3lshgim4197acfleg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

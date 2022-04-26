@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/check_box_background.xml" value="0.1235" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/color_state_bottom_nav.xml" value="0.1665" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/edit_text_background_color.xml" value="0.1235" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.1455" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/ic_calendar.xml" value="0.1475" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/ic_chat.xml" value="0.1675" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/ic_forward.xml" value="0.152" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/ic_group_1417.xml" value="0.1665" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1675" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/ic_learning_icon.xml" value="0.152" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/ic_menu.xml" value="0.1675" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/ic_notification.xml" value="0.1745" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/ic_person.xml" value="0.153" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/icon_checked.xml" value="0.1745" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/show_password_selector.xml" value="0.1455" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/drawable/white_button_background.xml" value="0.1455" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/activity_add_profile_photo.xml" value="0.16944444444444445" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.2" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/activity_create_new_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/activity_email_verification.xml" value="0.176" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/activity_login.xml" value="0.176" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/activity_onboarding.xml" value="0.176" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/activity_reset_password.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/activity_signup.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/dialog_custom.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/fragment_calendar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/fragment_home.xml" value="0.152" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/fragment_menu.xml" value="0.152" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/fragment_message.xml" value="0.176" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/fragment_notifications.xml" value="0.176" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/lottie_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/layout/slider_layout.xml" value="0.152" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/menu/main_custom_menu.xml" value="0.152" />
+        <entry key="..\:/Users/aliya/AndroidStudioProjects/Tribe/app/src/main/res/menu/profile_menu.xml" value="0.16944444444444445" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
