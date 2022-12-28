@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">46648179462-jdpkf2re3asp886i48geakhargpuv5jn.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">46648179462</string>
+    <string name="google_api_key" translatable="false">AIzaSyASHmv1vz-N8x1lDE6dD20fmQmXbqTwvoo</string>
+    <string name="google_app_id" translatable="false">1:46648179462:android:6455410b835ff807e5fc87</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyASHmv1vz-N8x1lDE6dD20fmQmXbqTwvoo</string>
+    <string name="google_storage_bucket" translatable="false">tribe-590e4.appspot.com</string>
+    <string name="project_id" translatable="false">tribe-590e4</string>
+</resources>

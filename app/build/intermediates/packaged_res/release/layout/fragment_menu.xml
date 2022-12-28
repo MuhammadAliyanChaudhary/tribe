@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F8F8"
+    android:layout_marginBottom="?actionBarSize"
+    tools:context=".ui.menu.MenuFragment">
+
+
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/main_menu_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:elevation="0dp"
+            android:minHeight="?attr/actionBarSize"
+            app:menu="@menu/profile_menu"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Menu"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:isScrollContainer="true"
+            >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:rowCount="3"
+            android:columnCount="2"
+            android:padding="8dp"
+            android:layout_marginTop="2dp"
+            >
+
+           <androidx.cardview.widget.CardView
+               android:id="@+id/memories"
+               android:layout_rowWeight="1"
+               android:layout_columnWeight="1"
+               android:layout_width="0dp"
+               android:layout_height="20dp"
+               android:layout_gravity="fill"
+               app:cardCornerRadius="8dp"
+               app:cardElevation="4dp"
+               android:layout_margin="8dp"
+               android:foreground="?android:attr/selectableItemBackground"
+               android:clickable="true"
+               >
+
+               <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="16dp"
+                   >
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignStart="@id/icon_fridge"
+                       android:layout_alignParentBottom="true"
+                       android:layout_marginTop="10dp"
+                       android:text="Memories"
+                       android:textColor="@color/black"
+                       android:textSize="15dp" />
+
+                   <ImageView
+                       android:id="@+id/icon_fridge"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/calendar_icon" />
+               </RelativeLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_rowWeight="1"
+               android:layout_columnWeight="1"
+               android:layout_width="0dp"
+               android:layout_height="20dp"
+               android:layout_gravity="fill"
+               app:cardCornerRadius="8dp"
+               app:cardElevation="4dp"
+               android:layout_margin="8dp"
+               android:foreground="?android:attr/selectableItemBackground"
+               android:clickable="true"
+               >
+
+               <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="16dp"
+                   >
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignStart="@id/icon_learning"
+                       android:layout_alignParentBottom="true"
+                       android:layout_marginTop="10dp"
+                       android:text="Learning"
+                       android:textColor="@color/black"
+                       android:textSize="15dp" />
+
+                   <ImageView
+                       android:id="@+id/icon_learning"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/ic_learning_icon" />
+               </RelativeLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_rowWeight="1"
+               android:layout_columnWeight="1"
+               android:layout_width="0dp"
+               android:layout_height="20dp"
+               android:layout_gravity="fill"
+               app:cardCornerRadius="8dp"
+               app:cardElevation="3dp"
+               android:layout_margin="8dp"
+               android:foreground="?android:attr/selectableItemBackground"
+               android:clickable="true"
+               >
+
+               <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="16dp"
+                   >
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignStart="@id/icon_islam"
+                       android:layout_alignParentBottom="true"
+                       android:layout_marginTop="10dp"
+                       android:text="Islam"
+                       android:textColor="@color/black"
+                       android:textSize="15dp"
+
+                       />
+
+                   <ImageView
+                       android:id="@+id/icon_islam"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/calendar_icon" />
+               </RelativeLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:layout_rowWeight="1"
+               android:layout_columnWeight="1"
+               android:layout_width="0dp"
+               android:layout_height="20dp"
+               android:layout_gravity="fill"
+               app:cardCornerRadius="8dp"
+               app:cardElevation="3dp"
+               android:layout_margin="8dp"
+               android:foreground="?android:attr/selectableItemBackground"
+               android:clickable="true"
+               >
+
+               <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="16dp"
+                   >
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignStart="@id/icon_health"
+                       android:layout_alignParentBottom="true"
+                       android:layout_marginTop="10dp"
+                       android:text="Kids Health"
+                       android:textColor="@color/black"
+                       android:textSize="15dp"
+
+                       />
+
+                   <ImageView
+                       android:id="@+id/icon_health"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/calendar_icon" />
+               </RelativeLayout>
+
+           </androidx.cardview.widget.CardView>
+           <androidx.cardview.widget.CardView
+               android:id="@+id/community"
+               android:layout_rowWeight="1"
+               android:layout_columnWeight="1"
+               android:layout_width="0dp"
+               android:layout_height="20dp"
+               android:layout_gravity="fill"
+               app:cardCornerRadius="8dp"
+               app:cardElevation="2dp"
+               android:layout_margin="8dp"
+               android:foreground="?android:attr/selectableItemBackground"
+               android:clickable="true"
+               >
+
+               <RelativeLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="16dp"
+                   >
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_alignStart="@id/icon_community"
+                       android:layout_alignParentBottom="true"
+                       android:layout_marginTop="10dp"
+                       android:text="Community"
+                       android:textColor="@color/black"
+                       android:textSize="15dp"
+
+                       />
+
+                   <ImageView
+                       android:id="@+id/icon_community"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/ic_community_icon" />
+               </RelativeLayout>
+
+           </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        </GridLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="Others"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Invite Members"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:paddingVertical="10dp"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_forward"
+                android:layout_weight="0.1"
+                android:layout_gravity="center_vertical"
+
+                />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/Fade_gray_two"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Notifications"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:paddingVertical="10dp"
+
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_forward"
+                android:layout_weight="0.1"
+                android:layout_gravity="center_vertical"
+
+                />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/Fade_gray_two"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Remind me"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:paddingVertical="10dp"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_forward"
+                android:layout_weight="0.1"
+                android:layout_gravity="center_vertical"
+
+                />
+
+
+
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/Fade_gray_two"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Edit Trybe"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:paddingVertical="10dp"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_forward"
+                android:layout_weight="0.1"
+                android:layout_gravity="center_vertical"
+
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/logout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="16dp"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:paddingVertical="10dp"
+                />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_forward"
+                android:layout_weight="0.1"
+                android:layout_gravity="center_vertical"
+
+                />
+
+
+
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@color/Fade_gray_two"
+            />
+
+
+    </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

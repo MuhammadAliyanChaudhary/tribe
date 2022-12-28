@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\backup\\tribe\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-night-v23\\values-night-v23.xml",
+            "map": [
+                {
+                    "source": "D:\\backup\\tribe\\app\\src\\main\\res\\values-night-v23\\themes.xml",
+                    "from": {
+                        "startLines": "40,32,35,3,18",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "1992,1617,1758,103,862",
+                        "endLines": "44,34,38,16,31",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "2264,1753,1986,856,1612"
+                    },
+                    "to": {
+                        "startLines": "2,7,10,14,28",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "100,377,518,751,1507",
+                        "endLines": "6,9,13,27,41",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "372,513,746,1502,2255"
+                    }
+                }
+            ]
+        }
+    ]
+}

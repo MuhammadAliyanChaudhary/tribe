@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.tribe.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home"
+        />
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.example.tribe.ui.calendar.CalendarFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_calendar" >
+        <action
+            android:id="@+id/action_navigation_calendar_to_createEvent"
+            app:destination="@id/createEvent" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_messages"
+        android:name="com.example.tribe.ui.message.MessageFragment"
+        android:label="@string/title_messages"
+        tools:layout="@layout/fragment_message" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.tribe.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_menu"
+        android:name="com.example.tribe.ui.menu.MenuFragment"
+        android:label="@string/title_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_navigation_menu_to_memories2"
+            app:destination="@id/memories2" />
+        <action
+            android:id="@+id/action_navigation_menu_to_community"
+            app:destination="@id/community" />
+    </fragment>
+    <fragment
+        android:id="@+id/memories2"
+        android:name="com.example.tribe.ui.memories.Memories"
+        android:label="fragment_memories"
+        tools:layout="@layout/fragment_memories" />
+    <fragment
+        android:id="@+id/community"
+        android:name="com.example.tribe.ui.Community.Community"
+        android:label="fragment_community"
+        tools:layout="@layout/fragment_community" />
+    <fragment
+        android:id="@+id/createEvent"
+        android:name="com.example.tribe.ui.CreateEvent"
+        android:label="fragment_create_event"
+        tools:layout="@layout/fragment_create_event" />
+
+</navigation>

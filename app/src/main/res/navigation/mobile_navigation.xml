@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.tribe.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home"
+        />
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.example.tribe.ui.calendar.CalendarFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_calendar" >
+        <action
+            android:id="@+id/action_navigation_calendar_to_createEvent"
+            app:destination="@id/createEvent" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_messages"
+        android:name="com.example.tribe.ui.message.MessageFragment"
+        android:label="@string/title_messages"
+        tools:layout="@layout/fragment_message" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.tribe.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_menu"
+        android:name="com.example.tribe.ui.menu.MenuFragment"
+        android:label="@string/title_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_navigation_menu_to_memories2"
+            app:destination="@id/memories2" />
+        <action
+            android:id="@+id/action_navigation_menu_to_community"
+            app:destination="@id/community" />
+        <action
+            android:id="@+id/action_navigation_menu_to_islam"
+            app:destination="@id/islam" />
+        <action
+            android:id="@+id/action_navigation_menu_to_kids_health"
+            app:destination="@id/kidshealth" />
+
+        <action
+            android:id="@+id/action_navigation_menu_to_learning"
+            app:destination="@id/learning" />
+
+        <action
+            android:id="@+id/action_navigation_menu_to_blog_details"
+            app:destination="@id/blogDetails" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/islam"
+        android:name="com.example.tribe.ui.islam.Islam"
+        android:label="fragment_islam"
+        tools:layout="@layout/fragment_islam" />
+    <fragment
+        android:id="@+id/kidshealth"
+        android:name="com.example.tribe.ui.kidshealth.KidsHealth"
+        android:label="fragment_kids_health"
+        tools:layout="@layout/fragment_kids_health">
+        <action
+            android:id="@+id/action_navigation_kidshealth_to_male"
+            app:destination="@id/weight_path" />
+
+        <action
+            android:id="@+id/action_navigation_kidshealth_to_female"
+            app:destination="@id/height_path" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/learning"
+        android:name="com.example.tribe.ui.learning.Learning"
+        android:label="fragment_learning"
+        tools:layout="@layout/fragment_learning" />
+
+    <fragment
+        android:id="@+id/blogDetails"
+        android:name="com.example.tribe.ui.blog.BlogDetailFragment"
+        android:label="fragment_blogDetails"
+        tools:layout="@layout/fragment_blog_detail" />
+
+
+    <fragment
+        android:id="@+id/memories2"
+        android:name="com.example.tribe.ui.memories.Memories"
+        android:label="fragment_memories"
+        tools:layout="@layout/fragment_memories" />
+    <fragment
+        android:id="@+id/community"
+        android:name="com.example.tribe.ui.Community.Community"
+        android:label="fragment_community"
+        tools:layout="@layout/fragment_community" />
+    <fragment
+        android:id="@+id/createEvent"
+        android:name="com.example.tribe.ui.CreateEvent"
+        android:label="fragment_create_event"
+        tools:layout="@layout/fragment_create_event" />
+
+    <fragment
+        android:id="@+id/weight_path"
+        android:name="com.example.tribe.ui.kidshealth.MaleHealthFragment"
+        android:label="fragment_weight"
+        tools:layout="@layout/fragment_male_health" >
+        <action
+            android:id="@+id/action_navigation_track_weight_to_babies"
+            app:destination="@id/babies_weight" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/height_path"
+        android:name="com.example.tribe.ui.kidshealth.FemaleHealthFragment"
+        android:label="fragment_height"
+        tools:layout="@layout/fragment_female_health" />
+
+    <fragment
+        android:id="@+id/babies_weight"
+        android:name="com.example.tribe.ui.kidshealth.weight.MaleBabiesHealthFragment"
+        android:label="fragment_babies_weight"
+        tools:layout="@layout/fragment_babies_weight" />
+
+</navigation>

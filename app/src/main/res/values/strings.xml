@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Bavy</string>
+    <string name="create_account"><u><b>Create Account</b></u></string>
+    <string name="do_not_have_an_account">Do not have an account?</string>
+    <string name="forget_your_password"><u><b>Forget your Password?</b></u></string>
+    <string name="terms_conditions"><u><b><![CDATA[Terms & Conditions]]></b></u></string>
+    <string name="privacy_policy"><u><b><![CDATA[Privacy & Policy.]]></b></u></string>
+    <string name="reset_password"><b>Reset Password</b></string>
+    <string name="please_enter_your_email_associated">Please enter your Email associated with this account, we will send the link to reset your password.</string>
+    <string name="try_another_way"><u>Try another way.</u></string>
+    <string name="create_new_password"><b>Create New Password</b></string>
+    <string name="your_new_password_must_be_different">Your new password must be different from previous used password.</string>
+    <string name="check_your_email"><b>Check your email</b></string>
+    <string name="stevejobs_gmail_com">stevejobs@gmail.com</string>
+    <string name="to_confirm_your_account">To confirm your account, enter the 4 digit code send to</string>
+    <string name="title_activity_main_screen">ActivityMainScreen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_notifications">Notification</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="make_profile_of">Make your child profiles and it will have all information needed whenever you and other members wants and need.</string>
+    <string name="create_events_to_organize">Create events to organize your tribe and assign event to other members and share events with other trybes.</string>
+    <string name="by_fridge_now_you">By Fridge, Now you can store all memories of your trybe at one place and sett it whenever you want and need.</string>
+    <string name="connected_with_other_tribes">Connected with other trybes and create the next level communities with other trybes.</string>
+    <string name="make_profiles">Make Profiles</string>
+    <string name="store_memories">Store Memories</string>
+    <string name="join_other_tribes">Join Other Trybes</string>
+    <string name="create_events">Create Events</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+
+
+    <string name="babies">Babies - 0 to 11 Months</string>
+    <string name="toddlers">Toddlers - 12 to 23 Months</string>
+    <string name="children">Children - 2 to 12 Years</string>
+    <string name="teenage">Teenage - 13 to 20 Years</string>
+    <string name="enter_age_in_months">Enter your child\'s age\nin months</string>
+    <string name="enter_age_in_years">Enter your child\'s age\nin years</string>
+    <string name="islam_string">Islam, major world religion promulgated by the Prophet Muhammad in Arabia in the 7th century CE.\n \n The Arabic term islām, literally “surrender,” illuminates the fundamental religious idea of Islam—that the believer
+        (called a Muslim, from the active particle of islām) accepts surrender
+        to the will of Allah (in Arabic, Allāh: God). Allah is viewed as the sole God—creator,
+        sustainer, and restorer of the world.\n \n \n The will of Allah, to which human beings must submit,
+        is made known through the sacred scriptures, the Qurʾān (often spelled Koran in English),
+        which Allah revealed to his messenger, Muhammad.\n\n Islam Muhammad is considered the
+        last of a series of prophets (including Adam, Noah, Abraham, Moses, Solomon, and Jesus),
+        and his message simultaneously consummates and completes the “revelations” attributed
+        to earlier prophets.</string>
+
+
+
+</resources>
